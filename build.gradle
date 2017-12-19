@@ -20,6 +20,12 @@ configurations {
 }
 
 dependencies {
+    compile group: 'com.google.guava',      name: 'guava',                  version: '23.0'
+    compile group: 'org.apache.commons',    name: 'commons-lang3',          version: '3.7'
+    compile group: 'de.greenrobot',         name: 'java-common',            version: '2.3.1'
+    compile group: 'net.openhft',           name: 'chronicle-algorithms',   version: '1.1.10'
+    compile group: 'org.apache.commons',    name: 'commons-math3',          version: '3.6.1'
+
     codeQualityConfig  group: 'com.github.mstawowiak',  name: 'code-quality',   version: '1.0.0-SNAPSHOT'
     testImplementation group: 'junit',                  name: 'junit',          version: '4.12'
 }
